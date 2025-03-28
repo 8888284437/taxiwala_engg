@@ -1,0 +1,75 @@
+.ul_color{
+    color: white;
+}
+
+
+.social{
+    margin-right: 20px;
+    font-size: 35px;
+}
+.bi-instagram{
+    color: rgba(117, 103, 38, 0.67);
+}
+.bi-facebook{
+    color: rgb(8, 8, 70);
+}
+.bi-linkedin{
+    color: blue;
+}
+.bi-twitter-x{
+    color: black;
+}
+.container_fluid{
+    position: sticky;
+top:100px;    
+
+}
+.about{
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.hover-underline {
+    font-size: 6rem;
+    color: #5f1414;
+    position: relative;
+    display: inline-block;
+    flex: content;
+
+}
+  
+  .hover-underline::after,
+  .hover-underline::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #ff0000, #00ffff);
+    bottom: -5px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.4s ease-out;
+  }
+  
+  .hover-underline::before {
+    top: -5px;
+    transform-origin: center;
+  }
+  
+  .hover-underline:hover::after,
+  .hover-underline:hover::before {
+    transform: scaleX(1);
+  }
+  .scrollspy-example {
+    height: 400px; 
+    overflow-y: scroll;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    transition: 0.4s;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+}
+  
